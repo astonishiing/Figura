@@ -29,6 +29,14 @@ public class Triangulo extends Figura {
         this.base = base;
     }
 
+    @Override
+    public String toString(){
+        return "Triangulo [base = " + base + ", altura" + altura + ", cor" + super.getCor();
+    }
 
+    @Override
+    public double area(){
+        return base * altura;
+    }
 
 }
